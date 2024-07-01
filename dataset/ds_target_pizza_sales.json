@@ -1,0 +1,23 @@
+{
+	"name": "ds_target_pizza_sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_target_pizza_Sales",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "pizza_sales.csv",
+				"container": "targetpizza"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
