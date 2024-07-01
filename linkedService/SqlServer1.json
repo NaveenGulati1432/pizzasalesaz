@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=17499-Naveen\\MSSQLSERVER01;initial catalog=sales",
+			"userName": "TEAMCOMPUTERS\\17499",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3ZWYyYzM4NC00YzhmLTRiMWQtYmI5MS0zZmMyZDVlMzhiZjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "PizzaintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
