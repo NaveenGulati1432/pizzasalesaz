@@ -1,0 +1,6 @@
+{
+	"name": "PizzaintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
