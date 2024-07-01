@@ -1,0 +1,9 @@
+{
+	"name": "pizzasalesfactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ad8a7035-764c-40f5-b46b-fc73b7f56262",
+		"tenantId": "3d8ff5e6-de45-4568-b852-44e71d23d415"
+	}
+}
